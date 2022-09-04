@@ -32,6 +32,7 @@ fn main() {
                 break;
             }
         }
+        
         println!("Do you want to play again?[Y/n]");
 
         io::stdin()
