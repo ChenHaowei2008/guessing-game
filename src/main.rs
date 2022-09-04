@@ -24,15 +24,15 @@ fn main() {
             };
     
             if guess > num {
-                println!("Your guess was {guess}, which is greater than the number");
+                println!("Your guess was {guess}, which is greater than the number.");
             }else if guess < num {
-                println!("Your guess was {guess}, which is lesser than the number");
+                println!("Your guess was {guess}, which is lesser than the number.");
             }else {
-                println!("Your guess is correct! The number is {guess}");
+                println!("Your guess is correct! The number is {guess}.");
                 break;
             }
         }
-        
+
         println!("Do you want to play again?[Y/n]");
 
         io::stdin()
